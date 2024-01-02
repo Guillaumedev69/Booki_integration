@@ -35,7 +35,7 @@ a {
     font-size: 22px;
 }
 
-.card {
+.card, .card-hebergements{
     background-color: white;
     border-radius: 20px;
     padding: 5px;
