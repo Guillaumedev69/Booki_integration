@@ -18,6 +18,28 @@ body {
     justify-content: center;
 }
 
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header img{
+    width: 3.8181rem;
+    height: 1.1875rem;
+    padding: 1.88rem 0rem;
+}
+.header-link{
+    height: 1.1875rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    gap: 4.25rem;}
+
+.header-link a:hover{
+    color: #0065FC;
+    border-top: 3px solid #0065FC;
+}
+
 .main-container {
     width: 100%;
     max-width: 1440px;
