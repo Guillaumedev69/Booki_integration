@@ -21,6 +21,7 @@ body {
 header nav{
     display: flex;
     justify-content: space-between;
+    
 }
 
 header img{
@@ -32,8 +33,13 @@ header img{
     height: 1.1875rem;
     display: flex;
     justify-content: space-between;
-    align-items: end;
-    gap: 4.25rem;}
+    gap: 4.25rem;
+}
+
+header a{
+    padding-top: 0.5rem;
+}
+    
 
 .header-link a:hover{
     color: #0065FC;
