@@ -79,6 +79,29 @@ header nav a:hover{
     height: 3rem;
 }
 
+.filter-bar{
+    display: flex;
+    gap: 1rem;
+}
+
+.button-filter a{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    gap: 0.75rem;
+    padding: 0rem 1.5rem 0rem 1.5rem;
+    border: 3px solid rgb(242, 242, 242,1);
+    border-radius: 3.75rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.button-filter a:active,
+.button-filter a:visited{
+    background-color: #DEEBFF;
+}
+
 a {
     color: inherit;
     text-decoration: none;
