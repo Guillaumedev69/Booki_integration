@@ -51,8 +51,21 @@ header nav a:hover{
     box-sizing: border-box;
 }
 
+.info-search-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 1rem 0rem;
+}
+
+.title-accueil{
+    display: flex;
+    flex-direction: column;
+}
+
 .search-bar{
     display: flex;
+    align-items: center;
 }
 
 .search-bar svg{
@@ -72,11 +85,17 @@ header nav a:hover{
 }
 
 .search-bar button{
+    display: flex;
+    align-items: center;
     background-color: #0065FC;
     color: white;
     border-radius:0rem 0.9375rem 0.9375rem 0rem;
     border: 1px solid #0065FC;
     height: 3rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 1rem;
 }
 
 .filter-bar{
@@ -92,9 +111,11 @@ header nav a:hover{
     display: flex;
     align-items: center;
     gap: 1rem;
-    border: 0.2rem solid #F2F2F2;
+    border: 0.1rem solid rgb(214, 214, 214);
     border-radius: 3.5rem;
     padding: 0rem 1.3rem;
+    font-weight: bold;
+    text-align: center;
 }
 
 .filter-bar input[type="radio"]:checked + label{
@@ -103,6 +124,12 @@ header nav a:hover{
     background-color: #DEEBFF;
 }
 
+.info-bar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.5rem;
+}
 
 a {
     color: inherit;
