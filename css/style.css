@@ -28,7 +28,7 @@ header img{
     height: 1.1875rem;
     padding: 1.88rem 0rem;
 }
-.header-link{
+header nav{
     height: 1.1875rem;
     display: flex;
     justify-content: space-between;
@@ -39,7 +39,7 @@ header a{
     padding-top: 0.5rem;
 }  
 
-.header-link a:hover{
+header nav a:hover{
     color: #0065FC;
     border-top: 3px solid #0065FC;
 }
@@ -56,18 +56,27 @@ header a{
 }
 
 .search-bar svg{
-    border: 1px solid #0065FC;
+    height: 3rem;
 }
 
 .search-bar input{
-    border-color: rgba(0, 0, 0, 0.1);
+    border:1px solid rgb(242, 242, 242,1);
+    height: 3rem;
+    font-weight: bold;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.search-bar ::placeholder{
+    color: black;
 }
 
 .search-bar button{
     background-color: #0065FC;
     color: white;
-    border-radius: 0% 20% 20% 0%;
+    border-radius:0rem 0.9375rem 0.9375rem 0rem;
     border: 1px solid #0065FC;
+    height: 3rem;
 }
 
 a {
