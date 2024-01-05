@@ -304,6 +304,7 @@ a {
 
 .cards-activites-container{
     display: flex;
+    flex-wrap: wrap;
     gap: 1.8rem;
     
 }
@@ -373,6 +374,19 @@ footer{
 
     .populaires-cards .card-subtitle {
         font-size: 13px;
+    }
+
+    .cards-activites, .cards-activites img{
+        width: 11.6rem;
+        height: 12rem;
+    }
+
+    .cards-activites{
+        height: 17rem;
+    }
+
+    .cards-activites h3{
+        font-size: 1rem;
     }
 }
 
