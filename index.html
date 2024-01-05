@@ -17,10 +17,12 @@
 <body>
     <div class="main-container">
         <header>
-            <a href="#" class="link-disabled"><img src="images/logo/Booki.png" alt="logo Booki"></a>
+            <a href="#" class="link-disabled"><img src="images/logo/Booki.png" alt="logo Booki" ></a>
             <nav>
-                <a href="#hebergement-link">Hébergements</a>
-                <a href="#activite-link">Activités</a>
+                <a href="#hebergement-link" class="header-desktop">Hébergements</a>
+                <a href="#activite-link" class="header-desktop">Activités</a>
+                <a href="#hebergement-link" class="header-responsive-mobile">Hébergements</a>
+                <a href="#activite-link" class="header-responsive-mobile">Activités</a>
             </nav>
         </header>
         <main>
@@ -29,7 +31,7 @@
                     <h1 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre-ville ou en pleine nature</p>
                 </section>
-                <div class="search-bar">
+                <div class="search-bar-desktop">
                     <form action="#" method="get">
                         <label for="site-search">
                             <i id="icone-location" class="fa-solid fa-location-dot"></i>
@@ -38,7 +40,8 @@
                         <button type="submit">Rechercher</button>
                     </form>
                 </div>
-                <section class="filter"> <!-- checkbox en prevision demande client-->
+                
+                <section class="filter">
                     <form class="filter-bar" method="get" action="#" >
                         <h3>Filtres</h3>
                         <input type="checkbox" name="choix" value="economique" id="economique">
