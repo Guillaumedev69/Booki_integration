@@ -64,7 +64,7 @@ header nav a:hover{
     flex-direction: column;
 }
 
-.search-bar{
+.search-bar form{
     display: flex;
     align-items: center;
 }
