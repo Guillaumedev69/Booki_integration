@@ -36,7 +36,7 @@ header nav{
 }
 
 header a{
-    padding-top: 0.5rem;
+    padding-top: 1rem;
 }  
 
 header nav a:hover{
@@ -45,11 +45,21 @@ header nav a:hover{
 }
 
 .main-container {
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
     box-sizing: border-box;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
 
 /***********info-search************/
 .info-search-container{
@@ -284,8 +294,40 @@ a {
     margin-bottom: 5px;
 }
 
+/******Activites******/
 
+.activites{
+    margin: 1.8rem;
+}
 
+.cards-activites-container{
+    display: flex;
+    gap: 1.8rem;
+    
+}
+
+.cards-activites{
+    width: 18.5rem;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 1rem;
+}
+
+.cards-activites img{
+    width: 18.5rem;
+    height: 23rem;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.cards-activites h3{
+    padding: 0rem 0.7rem 0rem 0.7rem;
+}
+
+/******Footer******/
+
+footer{
+    background-color: var(--main-bg-color)
+}
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
 
