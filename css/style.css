@@ -443,5 +443,47 @@ footer{
         
     }
 
+    .search-bar-desktop{
+        display: none;
+    }
+
+    .search-bar-mobile{
+        display: flex;
+    }
+
+    .search-bar-mobile form{
+        display: flex;
+        align-items: center;
+    }
+
+    .search-bar-mobile input{
+        display: flex;
+        border:1px solid rgb(242, 242, 242,1);
+        height: 3rem;
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-align: center;
+    }
     
+    .search-bar-mobile ::placeholder{
+        color: black;
+    }
+    
+    #icon-mobile{
+        color: white;
+    }
+
+    .search-bar-mobile button{
+        display: flex;
+        align-items: center;
+        background-color: #0065FC;
+        color: white;
+        border-radius:0rem 1rem 1rem 0rem;
+        border: 1px solid #0065FC;
+        height: 3rem;
+        font-weight: bold;
+        font-size: 1.2rem;
+        text-align: center;
+        padding: 1rem;
+    }
 }
