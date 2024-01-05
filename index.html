@@ -16,8 +16,8 @@
 
 <body>
     <div class="main-container">
-        <header> <!--fini -->
-            <a href="#"><img src="images/logo/Booki.png"></a>
+        <header>
+            <a href="#" class="link-disabled"><img src="images/logo/Booki.png"></a>
             <nav>
                 <a href="#hebergement-link">Hébergements</a>
                 <a href="#activite-link">Activités</a>
@@ -180,7 +180,7 @@
                             </article>
                         </a>
                     </div>
-                    <a href="#"><h3>Afficher plus</h3></a>
+                    <a href="#" class="link-disabled"><h3>Afficher plus</h3></a>
                 </section>
                 <section class="populaires">
                     <div class="populaires-title">
@@ -248,9 +248,9 @@
                     </div>
                 </section>
             </div>
-            <div class="activites"> <!--Reste modif CSS-->
+            <div class="activites">
                 <h2 id="activite-link">Activités à Marseille</h2>
-                <section class="cards-activites-container"> <!-- 1ligne -->
+                <section class="cards-activites-container">
                     <article class="cards-activites">
                         <img src="images/activites/reno-laithienne.jpg" alt="Photo du Vieux-Port">
                         <h3>Vieux-Port</h3>
@@ -270,23 +270,23 @@
                 </section>
             </div>
         </main>
-        <footer> <!--Reste modif CSS 3 colonne--> 
-            <h3>À propos</h3>
-            <ul>
-                <li><a href="#">Fonctionnement du site</a></li>
-                <li><a href="#">Conditions générales</a></li>
-                <li><a href="#">Données et confidentialité</a></li>
-            </ul>
-            <h3>Nos Hébergements</h3>
-            <ul>
-                <li><a href="#">Charte qualité</a></li>
-                <li><a href="#">Proposer votre hôtel</a></li>
-            </ul>
-            <h3>Assistance</h3>
-            <ul>
-                <li><a href="#">Centre d’aide</a></li>
-                <li><a href="#">Nous contacter</a></li>
-            </ul>
+        <footer>
+            <div class="footer-link">
+                <h3>À propos</h3>
+                <a href="#" class="link-disabled">Fonctionnement du site</a><br>
+                <a href="#" class="link-disabled">Conditions générales</a><br>
+                <a href="#" class="link-disabled">Données et confidentialité</a>
+            </div>
+            <div class="footer-link">
+                <h3>Nos Hébergements</h3>
+                <a href="#" class="link-disabled">Charte qualité</a><br>
+                <a href="#" class="link-disabled">Proposer votre hôtel</a>
+            </div>        
+            <div class="footer-link">
+                <h3>Assistance</h3>
+                <a href="#" class="link-disabled">Centre d’aide</a><br>
+                <a href="#" class="link-disabled">Nous contacter</a>
+            </div>
         </footer>
     </div>
 </body>
