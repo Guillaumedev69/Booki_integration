@@ -147,6 +147,7 @@ a {
     text-decoration: none;
 }
 
+
 .section-title {
     margin: 0;
     font-size: 22px;
@@ -196,6 +197,10 @@ a {
     gap: 1rem;
 }
 
+.hebergements h2{
+    margin-bottom: 1rem;
+}
+
 .card-hebergements-container{
     display: flex;
     flex-wrap: wrap;
@@ -206,29 +211,34 @@ a {
 
 .card-hebergements{
     display: flex;
+    width: 100%;
+    height: auto;
     flex-direction: column;
     justify-content: center;
     border: 0.3rem solid white;
     background-color: white;
-    border-radius: 2rem;
+    box-sizing: border-box;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+    border-radius: 1rem;
 }
 .card-hebergements img{
     
     width: 15rem;
-    border-radius: 2rem 2rem 0rem 0rem;
+    height: 7rem;
+    object-fit: cover;
+    border-radius: 1rem 1rem 0rem 0rem;
 }
 
 .card-content{
-    border: 1px solid red;
     display: flex;
     flex-direction: column;
     padding: 0.5rem;
 }
 
-.card-txt{
-    border: 1px solid red;
+.card-content h3,.card-content p{
+    margin-top: 0.2rem;
+    margin-bottom: 0.2rem;
 }
-
 /****** Populaires ***********/
 .populaires {
     width: 32%;
