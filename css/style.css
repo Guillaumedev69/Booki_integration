@@ -408,12 +408,12 @@ footer{
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    *{
-        
-    }
+
+    
 
     .main-container{
         padding: 0;
+        gap: 28px;
     }
 
     header{
@@ -425,7 +425,7 @@ footer{
 
     header img {
         width: 80px;
-        height: 25.6px;
+        height: 25px;
     }
 
     header nav{
@@ -457,11 +457,21 @@ footer{
     }
 
     .info-search-container {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        padding: 0;
         gap: 38px;
         margin: 24px;
+    }
+    .title-accueil{
+        gap: 8px;
+        width: 100%;
+        justify-content: center;
+    }
+    .title-accueil h1{
+        font-size: 28px;
+    }
+    .title-accueil p{
+        font-size: 20px;
+        margin: 0;
     }
 
     .search-bar-desktop{
@@ -470,12 +480,14 @@ footer{
 
     .search-bar-mobile{
         display: flex;
+        width: 100%;
     }
 
     .search-bar-mobile form{
         display: flex; 
-
         align-items: center;
+        justify-content: space-between;
+        width: 100%;
         border-top: 2px solid rgba(242, 242, 242,1);
         border-bottom: 2px solid rgba(242, 242, 242,1);
         border-radius: 18px ;
@@ -508,6 +520,7 @@ footer{
     #icone-location-mobile{
         border: 3px solid rgba(242, 242, 242,1);
         border-radius:  16px 0 0 16px;
+        font-size: 20px;
     }
 
     #icon-mobile{
@@ -517,7 +530,6 @@ footer{
         
     }
 
-
     .search-bar-mobile button {
         display: flex;
         align-items: center;
@@ -526,12 +538,16 @@ footer{
         color: white;
         border-radius: 16px;
         border: 3px solid #0065FC;
-        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+        box-shadow: 1px 7px 7px 1px rgba(0, 0, 0, 0.3);
         width: 50px;
         height: 50px;
         font-weight: bold;
         font-size: 20px;
         text-align: center;
         padding: 16px;
+    }
+    
+    .filter{
+        flex-direction: column;
     }
 }
