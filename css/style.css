@@ -1,6 +1,7 @@
 /****** General ***********/
 * {
     font-family: 'Raleway', sans-serif;
+    
 }
 .link-disabled{
     pointer-events: none;
@@ -352,7 +353,7 @@ footer{
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
     *{
-        border: 1px solid blue;
+        
     }
 
     .hebergements-and-populaires {
@@ -386,9 +387,13 @@ footer{
         font-size: 13px;
     }
 
-    .cards-activites,
+    .cards-activites{
+        width: 100%;
+    }
+
+
     .cards-activites img {
-        width: 185.6px;
+        width: 177.9px;
         height: 192px;
     }
 
@@ -404,7 +409,7 @@ footer{
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
     *{
-        border: 1px solid red;
+        
     }
 
     .main-container{
@@ -468,8 +473,12 @@ footer{
     }
 
     .search-bar-mobile form{
-        display: flex;
+        display: flex; 
+
         align-items: center;
+        border-top: 2px solid rgba(242, 242, 242,1);
+        border-bottom: 2px solid rgba(242, 242, 242,1);
+        border-radius: 18px ;
     }
 
     #icone-location-mobile{
@@ -485,7 +494,7 @@ footer{
 
     .search-bar-mobile input{
         display: flex;
-        border:1px solid rgb(242, 242, 242,1);
+        border: none;
         height: 48px;
         font-weight: bold;
         font-size: 20px;
@@ -496,19 +505,30 @@ footer{
         color: black;
     }
     
+    #icone-location-mobile{
+        border: 3px solid rgba(242, 242, 242,1);
+        border-radius:  16px 0 0 16px;
+    }
+
     #icon-mobile{
+        border: 18px solid #0065FC;
+        border-radius: 16px;
         color: white;
         
     }
 
+
     .search-bar-mobile button {
         display: flex;
         align-items: center;
+        justify-content: center;
         background-color: #0065FC;
         color: white;
-        border-radius: 0 16px 16px 0;
-        border: 1px solid #0065FC;
-        height: 48px;
+        border-radius: 16px;
+        border: 3px solid #0065FC;
+        box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.3);
+        width: 50px;
+        height: 50px;
         font-weight: bold;
         font-size: 20px;
         text-align: center;
