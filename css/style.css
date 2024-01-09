@@ -26,7 +26,7 @@ header{
 }
 
 header img{
-    width: 3.8181rem;
+    width: 100%;
     height: 1.1875rem;
     padding: 1.88rem 0rem;
 }
@@ -399,9 +399,7 @@ footer{
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    * {
-        margin: 0px;
-    }
+    
 
     .main-container{
         padding: 0px;
@@ -447,6 +445,15 @@ footer{
         
     }
 
+    .info-search-container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+        margin: 1.25rem;
+        border: 1px solid red;
+    }
+
     .search-bar-desktop{
         display: none;
     }
@@ -458,6 +465,17 @@ footer{
     .search-bar-mobile form{
         display: flex;
         align-items: center;
+    }
+
+    #icone-location-mobile{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 3rem;
+        height: 3rem;
+        color: black;
+        border-radius: 1rem 0rem 0rem 1rem;
+        background-color: rgb(242, 242, 242,1);
     }
 
     .search-bar-mobile input{
@@ -475,6 +493,7 @@ footer{
     
     #icon-mobile{
         color: white;
+        
     }
 
     .search-bar-mobile button{
