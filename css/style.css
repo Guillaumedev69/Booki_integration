@@ -27,14 +27,14 @@ header{
 
 header img{
     width: 100%;
-    height: 1.1875rem;
-    padding: 1.88rem 0rem;
+    height: 19px;
+    padding: 30px 0;
 }
-header nav{
-    height: 1.1875rem;
+header nav {
+    height: 19px;
     display: flex;
     justify-content: space-between;
-    gap: 4.25rem;
+    gap: 68px;
 }
 
 .header-responsive-mobile{
@@ -42,7 +42,7 @@ header nav{
 }
 
 .header-desktop{
-    padding-top: 1rem;
+    padding-top: 16px;
 }  
 
 .header-desktop:hover{
@@ -53,7 +53,7 @@ header nav{
 .main-container {
     display: flex;
     flex-direction: column;
-    gap: 2.5rem;
+    gap: 40px;
     width: 100%;
     max-width: 1440px;
     padding: 0 50px;
@@ -63,16 +63,16 @@ header nav{
 main{
     display: flex;
     flex-direction: column;
-    gap: 2rem;
+    gap: 32px;
 }
 
 
 /***********info-search************/
-.info-search-container{
+.info-search-container {
     display: flex;
     flex-direction: column;
-    gap: 1.5rem;
-    padding: 1rem 0rem;
+    gap: 24px;
+    padding: 16px 0;
 }
 
 .title-accueil{
@@ -93,19 +93,19 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 3rem;
-    height: 3rem;
+    width: 48px;
+    height: 48px;
     color: black;
-    border-radius: 1rem 0rem 0rem 1rem;
+    border-radius: 16px 0 0 16px;
     background-color: rgb(242, 242, 242,1);
 }
 
 .search-bar-desktop input{
     display: flex;
     border:1px solid rgb(242, 242, 242,1);
-    height: 3rem;
+    height: 48px;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 20px;
     text-align: center;
 }
 
@@ -113,37 +113,37 @@ main{
     color: black;
 }
 
-.search-bar-desktop button{
+.search-bar-desktop button {
     display: flex;
     align-items: center;
     background-color: #0065FC;
     color: white;
-    border-radius:0rem 1rem 1rem 0rem;
+    border-radius: 0 16px 16px 0;
     border: 1px solid #0065FC;
-    height: 3rem;
+    height: 48px;
     font-weight: bold;
-    font-size: 1.2rem;
+    font-size: 20px;
     text-align: center;
-    padding: 1rem;
+    padding: 16px;
 }
 
 .filter-bar{
     display: flex;
     flex-wrap: wrap;
-    gap: 1rem;
+    gap: 16px;
 }
 
 .filter-bar input[type="checkbox"]{
     display: none;
 }
 
-.filter-bar label{
+.filter-bar label {
     display: flex;
     align-items: center;
-    gap: 1rem;
-    border: 0.1rem solid rgb(214, 214, 214);
-    border-radius: 3.5rem;
-    padding: 0rem 1.3rem;
+    gap: 16px;
+    border: 1px solid rgb(214, 214, 214);
+    border-radius: 50px;
+    padding: 0 20px;
     font-weight: bold;
     text-align: center;
 }
@@ -158,7 +158,7 @@ main{
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 0.5rem;
+    gap: 8px;
 }
 
 a {
@@ -213,11 +213,11 @@ a {
     width: 65%;
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 16px;
 }
 
 .hebergements h2{
-    margin-bottom: 1rem;
+    margin-bottom: 16px;
 }
 
 .card-hebergements-container{
@@ -225,38 +225,38 @@ a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    gap: 1.8rem;
+    gap: 29px;
 }
 
-.card-hebergements{
+.card-hebergements {
     display: flex;
     width: 100%;
     height: auto;
     flex-direction: column;
     justify-content: center;
-    border: 0.3rem solid white;
+    border: 3px solid white;
     background-color: white;
     box-sizing: border-box;
-    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
-    border-radius: 1rem;
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
 }
-.card-hebergements img{
-    
-    width: 15rem;
-    height: 7rem;
+.card-hebergements img {
+    width: 240px;
+    height: 112px;
     object-fit: cover;
-    border-radius: 1rem 1rem 0rem 0rem;
+    border-radius: 16px 16px 0 0;
 }
 
-.card-content{
+.card-content {
     display: flex;
     flex-direction: column;
-    padding: 0.5rem;
+    padding: 8px;
 }
 
-.card-content h3,.card-content p{
-    margin-top: 0.2rem;
-    margin-bottom: 0.2rem;
+.card-content h3,
+.card-content p {
+    margin-top: 4.8px;
+    margin-bottom: 4.8px;
 }
 /****** Populaires ***********/
 .populaires {
@@ -305,32 +305,31 @@ a {
 
 /******Activites******/
 
-.activites{
-    margin: 1.8rem;
+.activites {
+    margin: 29px;
 }
 
-.cards-activites-container{
+.cards-activites-container {
     display: flex;
     flex-wrap: wrap;
-    gap: 1.8rem;
-    
+    gap: 29px;
 }
 
 .cards-activites{
-    width: 18.5rem;
+    width: 100%;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
-    border-radius: 1rem;
+    border-radius: 16px;
 }
 
 .cards-activites img{
-    width: 18.5rem;
-    height: 23rem;
+    width: 296px;
+    height: 368px;
     object-fit: cover;
-    border-radius: 1rem 1rem 0rem 0rem;
+    border-radius: 16px 16px 0 0;
 }
 
 .cards-activites h3{
-    padding: 0rem 0.7rem 1.4rem 0.7rem;
+    padding: 0 11.2px 22.4px 11.2px;
 }
 
 /******Footer******/
@@ -339,12 +338,12 @@ footer{
     background-color: var(--main-bg-color);
     display: flex;
 }
-.footer-link{
+.footer-link {
     width: 100%;
     display: flex;
     flex-direction: column;
-    padding: 0rem 1rem 1rem 1rem;
-    gap: 0.15rem;
+    padding: 0 16px 16px 16px;
+    gap: 2.4px;
 }
 
 /* Le code ci-dessous correspond à la version responsive uniquement */
@@ -352,6 +351,10 @@ footer{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
+    *{
+        border: 1px solid blue;
+    }
+
     .hebergements-and-populaires {
         flex-direction: column;
     }
@@ -383,26 +386,29 @@ footer{
         font-size: 13px;
     }
 
-    .cards-activites, .cards-activites img{
-        width: 11.6rem;
-        height: 12rem;
+    .cards-activites,
+    .cards-activites img {
+        width: 185.6px;
+        height: 192px;
     }
 
-    .cards-activites{
-        height: 17rem;
+    .cards-activites {
+        height: 268.8px;
     }
 
-    .cards-activites h3{
-        font-size: 1rem;
+    .cards-activites h3 {
+        font-size: 16px;
     }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
-    
+    *{
+        border: 1px solid red;
+    }
 
     .main-container{
-        padding: 0px;
+        padding: 0;
     }
 
     header{
@@ -412,16 +418,16 @@ footer{
         align-items: center;
     }
 
-    header img{
-        width: 5rem;
-        height: 1.6rem;
+    header img {
+        width: 80px;
+        height: 25.6px;
     }
 
     header nav{
         display: flex;
         justify-content: space-evenly;
         width: 100%;
-        padding-bottom: 1rem;
+        padding-bottom: 16px;
         border-bottom: 3px solid var(--main-bg-color);
         gap: 0px;
     }
@@ -435,7 +441,7 @@ footer{
         width: 100%;
         text-align: center;
         justify-content: center;
-        padding-bottom: 2.1rem;
+        padding-bottom: 34px;
         
     }  
     
@@ -445,13 +451,12 @@ footer{
         
     }
 
-    .info-search-container{
+    .info-search-container {
         display: flex;
         justify-content: center;
         align-items: center;
-        gap: 2rem;
-        margin: 1.25rem;
-        border: 1px solid red;
+        gap: 38px;
+        margin: 24px;
     }
 
     .search-bar-desktop{
@@ -471,19 +476,19 @@ footer{
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 3rem;
-        height: 3rem;
+        width: 48px;
+        height: 48px;
         color: black;
-        border-radius: 1rem 0rem 0rem 1rem;
+        border-radius: 16px 0 0 16px;
         background-color: rgb(242, 242, 242,1);
     }
 
     .search-bar-mobile input{
         display: flex;
         border:1px solid rgb(242, 242, 242,1);
-        height: 3rem;
+        height: 48px;
         font-weight: bold;
-        font-size: 1.2rem;
+        font-size: 20px;
         text-align: center;
     }
     
@@ -496,17 +501,17 @@ footer{
         
     }
 
-    .search-bar-mobile button{
+    .search-bar-mobile button {
         display: flex;
         align-items: center;
         background-color: #0065FC;
         color: white;
-        border-radius:0rem 1rem 1rem 0rem;
+        border-radius: 0 16px 16px 0;
         border: 1px solid #0065FC;
-        height: 3rem;
+        height: 48px;
         font-weight: bold;
-        font-size: 1.2rem;
+        font-size: 20px;
         text-align: center;
-        padding: 1rem;
+        padding: 16px;
     }
 }
