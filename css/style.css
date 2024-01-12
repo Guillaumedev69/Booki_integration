@@ -1,8 +1,8 @@
 /****** General ***********/
 * {
-    font-family: 'Raleway', sans-serif;
-    
+    font-family: 'Raleway', sans-serif; 
 }
+
 .link-disabled{
     pointer-events: none;
 }
@@ -19,6 +19,9 @@
 body {
     display: flex;
     justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+    max-width: 1440px;
 }
 /**************Header*********/
 header{
@@ -27,15 +30,15 @@ header{
 }
 
 header img{
-    width: 100%;
-    height: 19px;
-    padding: 30px 0;
+    padding: 27px 50px;
+    width: 25%;
 }
 header nav {
     height: 19px;
     display: flex;
     justify-content: space-between;
     gap: 68px;
+    padding: 0 50px;
 }
 
 .header-responsive-mobile{
@@ -57,7 +60,7 @@ header nav {
     gap: 40px;
     width: 100%;
     max-width: 1440px;
-    padding: 0 50px;
+    padding: 40px 50px;
     box-sizing: border-box;
 }
 
@@ -72,8 +75,7 @@ main{
 .info-search-container {
     display: flex;
     flex-direction: column;
-    gap: 24px;
-    padding: 16px 0;
+    gap: 30px;
 }
 
 .title-accueil{
@@ -128,10 +130,18 @@ main{
     padding: 16px;
 }
 
+.filter{
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+}
+
 .filter-bar{
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
     gap: 16px;
+
 }
 
 .filter-bar input[type="checkbox"]{
@@ -142,9 +152,9 @@ main{
     display: flex;
     align-items: center;
     gap: 16px;
-    border: 1px solid rgb(214, 214, 214);
+    border: 2px solid rgb(214, 214, 214);
     border-radius: 50px;
-    padding: 0 20px;
+    padding: 10px 15px;
     font-weight: bold;
     text-align: center;
 }
@@ -352,8 +362,10 @@ footer{
 /****** Media queries ***********/
 /* Medium devices (tablets, less/equal than 1024px) */
 @media (max-width: 1024px) {
-    *{
-        
+
+    .filter{
+        flex-direction: column;
+        gap: 5px;
     }
 
     .hebergements-and-populaires {
@@ -386,30 +398,35 @@ footer{
     .populaires-cards .card-subtitle {
         font-size: 13px;
     }
+    .activites{
+        border: 1px solid green;
+        padding: 20px;
+    }
+    .cards-activites-container{
+        border: 1px solid red;
+        
+    }
 
     .cards-activites{
+       width: 100%;
+       height: auto;
+    }
+
+    .cards-activites img{
+       width: 12rem;
+    }
+
+    .cards-activites h3{
         width: 100%;
-    }
-
-
-    .cards-activites img {
-        width: 177.9px;
-        height: 192px;
-    }
-
-    .cards-activites {
-        height: 268.8px;
-    }
-
-    .cards-activites h3 {
-        font-size: 16px;
     }
 }
 
 /* Small devices (phones, less than 768px) */
 @media (max-width: 767.98px) {
 
-    
+    body{
+        min-width: 320px
+    }
 
     .main-container{
         padding: 0;
