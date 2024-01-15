@@ -41,15 +41,11 @@ header nav {
     padding: 0 50px;
 }
 
-.header-responsive-mobile{
-    display: none;
-}
-
-.header-desktop{
+header nav a{
     padding-top: 16px;
 }  
 
-.header-desktop:hover{
+header nav a:hover{
     color: #0065FC;
     border-top: 3px solid #0065FC;
 }
@@ -83,12 +79,12 @@ main{
     flex-direction: column;
 }
 
-.search-bar-desktop form{
+.search-bar form{
     display: flex;
     align-items: center;
 }
 
-.search-bar-mobile{
+#icone-location-mobile, #icon-mobile, #button-mobile{
     display: none;
 }
 
@@ -103,7 +99,7 @@ main{
     background-color: rgb(242, 242, 242,1);
 }
 
-.search-bar-desktop input{
+.search-bar input{
     display: flex;
     border:1px solid rgb(242, 242, 242,1);
     height: 48px;
@@ -112,11 +108,13 @@ main{
     text-align: center;
 }
 
-.search-bar-desktop ::placeholder{
+.search-bar input
+
+.search-bar ::placeholder{
     color: black;
 }
 
-.search-bar-desktop button {
+.search-bar button {
     display: flex;
     align-items: center;
     background-color: #0065FC;
@@ -472,23 +470,18 @@ footer{
         gap: 0px;
     }
 
-    .header-desktop{
-        display: none;
-    }
-
-    .header-responsive-mobile{
+    header nav a{
         display: block;
         width: 100%;
         text-align: center;
         justify-content: center;
-        padding-bottom: 34px;
-        
+        padding: 0 0 34px 0;
     }  
     
-    .header-responsive-mobile:hover{
+    header nav a:hover{
         color: #0065FC;
         border-bottom: 3px solid #0065FC;
-        
+        border-top: none;
     }
 
     .info-search-container {
@@ -508,16 +501,16 @@ footer{
         margin: 0;
     }
 
-    .search-bar-desktop{
-        display: none;
-    }
-
-    .search-bar-mobile{
+    .search-bar{
         display: flex;
         width: 100%;
     }
 
-    .search-bar-mobile form{
+    #icone-location, .search-bar input + button{
+        display: none;
+    }
+
+    .search-bar form{
         display: flex; 
         width: 100%;
         justify-content: space-between;
@@ -540,7 +533,7 @@ footer{
         font-size: 20px;
     }
 
-    .search-bar-mobile input{
+    .search-bar input{
         display: flex;
         border: none;
         width: 100%;
@@ -550,7 +543,7 @@ footer{
         text-align: center;
     }
     
-    .search-bar-mobile ::placeholder{
+    .search-bar ::placeholder{
         color: black;
     }
     
@@ -558,10 +551,10 @@ footer{
         border: 13px solid #0065FC;
         border-radius: 20px;
         color: white;
-        
+        display: inline;
     }
 
-    .search-bar-mobile button {
+    #button-mobile {
         display: flex;
         align-items: center;
         justify-content: center;
