@@ -18,10 +18,8 @@
     <header>
         <a href="#" class="link-disabled"><img src="images/logo/Booki.png" alt="logo Booki" ></a>
         <nav>
-                <a href="#hebergement-link" class="header-desktop">Hébergements</a>
-                <a href="#activite-link" class="header-desktop">Activités</a>
-                <a href="#hebergement-link" class="header-responsive-mobile">Hébergements</a>
-                <a href="#activite-link" class="header-responsive-mobile">Activités</a>
+                <a href="#hebergement-link">Hébergements</a>
+                <a href="#activite-link">Activités</a>
          </nav>
     </header>
     <div class="main-container">
@@ -31,24 +29,18 @@
                     <h1 class="section-title">Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre-ville ou en pleine nature</p>
                 </section>
-                <div class="search-bar-desktop">
+                <div class="search-bar">
                     <form action="#" method="get">
                         <label for="site-search">
                             <i id="icone-location" class="fa-solid fa-location-dot"></i>
-                        </label>
-                        <input type="search" placeholder="Marseille, France" id="site-search" name="q">
-                        <button type="submit">Rechercher</button>
-                    </form>
-                </div>
-                <div class="search-bar-mobile"> 
-                    <form action="#" method="get">
-                        <label for="site-search">
                             <i id="icone-location-mobile" class="fa-solid fa-location-dot"></i>
                         </label>
                         <input type="search" placeholder="Marseille, France" id="site-search" name="q">
-                        <button type="submit"><i id="icon-mobile" class="fa-solid fa-magnifying-glass"></i></button>
+                        <button type="submit">Rechercher</button>
+                        <button id="button-mobile" type="submit"><i id="icon-mobile" class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
                 </div>
+                
                 <section class="filter">
                     <h3>Filtres</h3>
                     <form class="filter-bar" method="get" action="#" >
