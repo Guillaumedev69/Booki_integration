@@ -18,9 +18,9 @@
     <header>
         <a href="#" class="link-disabled"><img src="images/logo/Booki.png" alt="logo Booki" ></a>
         <nav>
-                <a href="#hebergement-link">Hébergements</a>
-                <a href="#activite-link">Activités</a>
-         </nav>
+            <a href="#hebergement-link">Hébergements</a>
+            <a href="#activities-link">Activités</a>
+        </nav>
     </header>
     <div class="main-container">
         <main>
@@ -39,27 +39,26 @@
                         <button type="submit">Rechercher</button>
                         <button id="button-mobile" type="submit"><i id="icon-mobile" class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
-                </div>
-                
+                </div> 
                 <section class="filter">
                     <h3>Filtres</h3>
                     <form class="filter-bar" method="get" action="#" >
-                        <input type="checkbox" name="choix" value="economique" id="economique">
+                        <input type="radio" name="choix" value="economique" id="economique">
                         <label for="economique">
                             <i class="fa-solid fa-money-bill-wave"></i>
                             Économique
                             </label> 
-                        <input type="checkbox" name="choix" value="familial" id="familial">
+                        <input type="radio" name="choix" value="familial" id="familial">
                             <label for="familial">
                                 <i class="fa-solid fa-person"></i>
                                 Familial
                             </label>
-                        <input type="checkbox" name="choix" value="romantique" id="romantique">
+                        <input type="radio" name="choix" value="romantique" id="romantique">
                             <label for="romantique">
                                 <i class="fa-solid fa-heart"></i>
                                 Romantique
                             </label>
-                        <input type="checkbox" name="choix" value="pepites" id="pepites">
+                        <input type="radio" name="choix" value="pepites" id="pepites">
                             <label for="pepites">
                                 <i class="fa-solid fa-fire"></i>
                                 Nos pépites
@@ -78,10 +77,8 @@
                             <article class="cards-hebergements">
                                 <img src="images/hebergements/fred-kleber.jpg" alt="Image de la chambre d'hôtel du port">
                                 <div class="card-content">
-                                    <div class="card-txt">
                                         <h3 class="card-title">Hôtel du port</h3>
                                         <p class="card-subtitle">Nuit à partir de 52<span class="euro">€</span></p>
-                                    </div>
                                     <div class="card-rating">
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
                                         <i class="fa-xs fa-solid fa-star" aria-hidden="true"></i>
