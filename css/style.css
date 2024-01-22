@@ -323,11 +323,12 @@ main{
 footer{
     background-color: var(--main-bg-color);
     display: flex;
-    flex-direction: column;
+}
+footer figure{
     width: 100%;
     padding: 0 16px 16px 16px;
 }
-footer h3{
+figcaption{
     font-weight: bold;
     font-size: 1.1rem;
 }
