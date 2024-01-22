@@ -324,11 +324,8 @@ footer{
     background-color: var(--main-bg-color);
     display: flex;
 }
-.link-footer{
-    width: 100%;
-    padding: 0 16px 16px 16px;
-}
 footer h4{
+    margin: 0;
     font-weight: bold;
     font-size: 1.1rem;
 }
@@ -338,6 +335,10 @@ footer ul{
     gap: 16px;
     list-style: none;
     padding: 0;
+}
+.link-footer{
+    width: 100%;
+    padding: 20px;
 }
 /* Le code ci-dessous correspond à la version responsive uniquement */
 /****** Media queries ***********/
@@ -552,6 +553,10 @@ footer ul{
    }
     footer{
         flex-direction: column;
-        width: 100%;
+        padding: 30px;
+        gap: 50px;
+    }
+    .link-footer{
+        width: 50%;
     }
 }
