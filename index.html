@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booki</title>
+    <title>Booki - Accueil</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;700&display=swap" rel="stylesheet">
@@ -36,8 +36,8 @@
                             <i id="icone-location-mobile" class="fa-solid fa-location-dot"></i>
                         </label>
                         <input type="search" placeholder="Marseille, France" id="site-search" name="q">
-                        <button type="submit">Rechercher</button>
-                        <button id="button-mobile" type="submit"><i id="icon-mobile" class="fa-solid fa-magnifying-glass"></i></button>
+                        <button type="submit" disabled>Rechercher</button>
+                        <button id="button-mobile" type="submit" disabled><i id="icon-mobile" class="fa-solid fa-magnifying-glass"></i></button>
                     </form>
                 </div> 
                 <section class="filter">
@@ -283,30 +283,29 @@
             </section>
         </main>
         <footer>
-            <figure>
-                <figcaption>À propos</figcaption>
+            <div class="link-footer">
+                <h4>À propos</h4>
                 <ul>
                     <li><a href="#" class="link-disabled">Fonctionnement du site</a></li>
                     <li><a href="#" class="link-disabled">Conditions générales</a></li>
                     <li><a href="#" class="link-disabled">Données et confidentialité</a></li>
                 </ul>
-              </figure>
-              <figure>
-                <figcaption>Nos Hébergements</figcaption>
+            </div>
+            <div class="link-footer">
+                <h4>Nos Hébergements</h4>
                 <ul>
                     <li><a href="#" class="link-disabled">Charte qualité</a></li>
                     <li><a href="#" class="link-disabled">Proposer votre hôtel</a></li>
                 </ul>
-              </figure>
-              <figure>
-                <figcaption>Assistance</figcaption>
+            </div>
+            <div class="link-footer">
+                <h4>Assistance</h4>
                 <ul>
                     <li><a href="#" class="link-disabled">Centre d’aide</a></li>
                     <li><a href="#" class="link-disabled">Nous contacter</a></li>
                 </ul>
-              </figure>                                         
+            </div>                                         
         </footer>
     </div>
 </body>
-
 </html>
