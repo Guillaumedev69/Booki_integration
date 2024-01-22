@@ -257,6 +257,7 @@ main{
 .populaires-cards .card {
     display: flex;
     margin-top: 33px;
+    background-color: white;
 } 
 .populaires-cards img {
     width: 33%;
