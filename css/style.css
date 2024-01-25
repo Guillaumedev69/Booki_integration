@@ -273,7 +273,7 @@ main{
     justify-content: space-between;
     box-sizing: border-box;
 }
-.populaires-cards .card-title {
+.populaires-cards h3{
     margin-top: 10px;
     margin-bottom: 4px;
 }
@@ -399,7 +399,6 @@ footer ul{
         min-width: 320px;
     }
     .main-container{
-        flex-direction: column;
         padding: 0;
     }
     header{
@@ -444,10 +443,8 @@ footer ul{
         display: none;
     }
     .search-bar form{
-        display: flex; 
         width: 100%;
         justify-content: space-between;
-        align-items: center;
         border-top: 2px solid var(--main-bg-color);
         border-bottom: 2px solid var(--main-bg-color);
         border-radius: 18px ;
