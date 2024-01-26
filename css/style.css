@@ -552,7 +552,7 @@ footer ul{
     footer{
         flex-direction: column;
         padding: 30px;
-        gap: 50px;
+        gap: 30px;
     }
     .link-footer{
         width: 50%;
